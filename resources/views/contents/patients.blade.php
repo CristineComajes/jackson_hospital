@@ -244,7 +244,7 @@
                         <textarea name="health" class="form-control border-success" rows="3">{{ $patient->health }}</textarea>
                     </div>
 
-                    {{-- Insurance Info --}}
+                    
                     <div class="col-md-6 mb-3">
                         <label class="form-label text-success">Insurance Provider</label>
                         <input type="text" name="insurance_provider" value="{{ $patient->insurance_provider }}" class="form-control border-success">
